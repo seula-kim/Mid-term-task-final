@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="style.css" />
+    <style>
+
+      body 
+
+      .overlap-11 {
+        width: 100px;
+        height: 100px;
+        transition: transform 0.3s ease; /* 변환 효과에 대한 전환 효과 설정 */
+      }
+
+      .overlap-11:hover {
+        transform: rotateY(180deg); /* 마우스 호버 시 180도 회전 */
+      }
+
+       .group-20 {
+        width: 100px;
+        height: 100px;
+        transition: transform 0.3s ease; /* 변환 효과에 대한 전환 효과 설정 */
+        transform-origin:50% 50%; /* 회전 중심을 요소의 중심으로 설정 */}
+
+      }
+
+      .group-20:hover {
+        transform: rotateY(180deg); /* 마우스 호버 시 180도 회전 */
+      }
+
+
+
+
+
+
+          .group-16 {
+          transition: transform 0.3s ease; /* 변환 속성에 대한 0.3초의 부드러운 애니메이션 적용 */
+            }
+          .group-16:hover {
+          transform: scale(1.3); /* 이미지가 확대되는 애니메이션 */
+          }}
+
+         .img-3 {
+          transition: transform 0.3s ease; /* 변환 속성에 대한 0.3초의 부드러운 애니메이션 적용 */
+          }
+
+          .img-3:hover {
+          transform: scale(1.1); /* 이미지가 확대되는 애니메이션 */}
+
+
+          .element-rdpph-2 {
+          transition: transform 0.3s ease; /* 변환 속성에 대한 0.3초의 부드러운 애니메이션 적용 */
+          }
+
+          .element-rdpph-2:hover {
+          transform: scale(1.4); /* 이미지가 확대되는 애니메이션 */
+          } 
+
+
+
+
+      .text-wrapper-29{
+        position: fixed; /* 화면 상단에 고정 */
+        top: 0; /* 화면의 맨 위에 위치 */
+        left: 0; /* 화면의 왼쪽에 위치 */
+        width: 100%; /* 너비를 화면 전체로 설정 */
+        background-color: #333; /* 배경색 설정 */
+        padding: 10px 0; /* 위아래 여백 설정 */
+        color: #fff; /* 텍스트 색상 설정 */
+        z-index: 1000; /* 다른 요소 위에 표시될 수 있도록 z-index 설정 */
+      }
+
+        .image-20:hover,
+        .overlap-7:hover {
+        transform: scale(1.5); /* 1.1배 확대되는 애니메이션 */
+        transition: transform 0.3s ease; /* 변환 속성에 대한 0.3초의 부드러운 애니메이션 적용 */
+}
+
+
+      /* 반짝임 */
+      .vector-38{animation: blink-animation 0.3s infinite;} @keyframes blink-animation {
+        0% {opacity: 1; /* 처음에 보이기 */}
+        50% {opacity: 0; /* 절반 지날 때 사라짐 */}
+        100% {opacity: 1; /* 다시 보이기 */}}
+      .vector-39{animation: blink-animation 0.6s infinite;} @keyframes blink-animation {
+        0% {opacity: 1; /* 처음에 보이기 */}
+        50% {opacity: 0; /* 절반 지날 때 사라짐 */}
+        100% {opacity: 1; /* 다시 보이기 */}}
+      .vector-26{animation: blink-animation 1s infinite;} @keyframes blink-animation {
+        0% {opacity: 1; /* 처음에 보이기 */}
+        50% {opacity: 0; /* 절반 지날 때 사라짐 */}
+        100% {opacity: 1; /* 다시 보이기 */}}
+      .vector-27{animation: blink-animation 0.2s infinite;} @keyframes blink-animation {
+        0% {opacity: 1; /* 처음에 보이기 */}
+        50% {opacity: 0; /* 절반 지날 때 사라짐 */}
+        100% {opacity: 1; /* 다시 보이기 */}}
+      .vector-28{animation: blink-animation 0.5s infinite;} @keyframes blink-animation {
+        0% {opacity: 1; /* 처음에 보이기 */}
+        50% {opacity: 0; /* 절반 지날 때 사라짐 */}
+        100% {opacity: 1; /* 다시 보이기 */}}
+
+
+        .vector-35{animation: blink-animation 0.3s infinite;} @keyframes blink-animation {
+        0% {opacity: 1; /* 처음에 보이기 */}
+        50% {opacity: 0; /* 절반 지날 때 사라짐 */}
+        100% {opacity: 1; /* 다시 보이기 */}}
+        .vector-36{animation: blink-animation 0.3s infinite;} @keyframes blink-animation {
+        0% {opacity: 1; /* 처음에 보이기 */}
+        50% {opacity: 0; /* 절반 지날 때 사라짐 */}
+        100% {opacity: 1; /* 다시 보이기 */}}
+        .vector-37{animation: blink-animation 0.3s infinite;} @keyframes blink-animation {
+        0% {opacity: 1; /* 처음에 보이기 */}
+        50% {opacity: 0; /* 절반 지날 때 사라짐 */}
+        100% {opacity: 1; /* 다시 보이기 */}}
+        .vector-32{animation: blink-animation 0.3s infinite;} @keyframes blink-animation {
+        0% {opacity: 1; /* 처음에 보이기 */}
+        50% {opacity: 0; /* 절반 지날 때 사라짐 */}
+        100% {opacity: 1; /* 다시 보이기 */}}
+        .vector-31{animation: blink-animation 0.3s infinite;} @keyframes blink-animation {
+        0% {opacity: 1; /* 처음에 보이기 */}
+        50% {opacity: 0; /* 절반 지날 때 사라짐 */}
+        100% {opacity: 1; /* 다시 보이기 */}}
+        .vector-30{animation: blink-animation 0.3s infinite;} @keyframes blink-animation {
+        0% {opacity: 1; /* 처음에 보이기 */}
+        50% {opacity: 0; /* 절반 지날 때 사라짐 */}
+        100% {opacity: 1; /* 다시 보이기 */}}
+        .vector-34{animation: blink-animation 0.3s infinite;} @keyframes blink-animation {
+        0% {opacity: 1; /* 처음에 보이기 */}
+        50% {opacity: 0; /* 절반 지날 때 사라짐 */}
+        100% {opacity: 1; /* 다시 보이기 */}}
+
+        .text-wrapper-46{animation: blink-animation 0.3s infinite;} @keyframes blink-animation {
+        0% {opacity: 1; /* 처음에 보이기 */}
+        50% {opacity: 0; /* 절반 지날 때 사라짐 */}
+        100% {opacity: 1; /* 다시 보이기 */}}
+        
+        
+
+
+      .group-17{animation: shake 0.3s infinite;}
+      @keyframes shake {
+      0% { transform: translateX(0); }
+      25% { transform: translateX(-5px); }
+      50% { transform: translateX(5px); }
+      75% { transform: translateX(-5px); }
+      100% { transform: translateX(0); }
+        }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      .element .text-wrapper-4 {
+    position: absolute;
+    width: 1385px;
+    top: 14374px;
+    left: 1751px;
+    font-family: "Pretendard-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: #4d4d4d;
+    font-size: 55px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 82.5px;
+    text-decoration: underline;
+    }
+    html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+      .text-wrapper-4 {
+          text-align: left; /* 텍스트를 왼쪽으로 정렬 */
+          padding-bottom: 200px; /* 아래쪽 패딩 추가 */
+          transition: color 0.3s ease; /* 텍스트 색상 변경에 대한 전환 효과 */
+        }
+
+        /* 호버 상태의 스타일 */
+        .text-wrapper-4:hover {
+          color: #92F9E5; /* 호버할 때의 텍스트 색상 */
+        }
+
+        .element .buy-stress-2 {
+        width: 1171px;
+        top: 15884px;
+        left: 1909px;
+        color: #91f9e5;
+        text-decoration: underline;
+        position: absolute;
+        font-family: "Pretendard-Regular", Helvetica;
+        font-weight: 400;
+        font-size: 25px;
+        text-align: center;
+        letter-spacing: 0;
+        line-height: 37.5px;
+    }
+    html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+}
+
+
+.element .union {
+    position: absolute;
+    width: 19px;
+    height: 12px;
+    top: 0px;
+    left: 0;
+}
+
+.element .ellipse {
+    width: 9px;
+    height: 4px;
+    left: 5px;
+    position: absolute;
+    top: -3px;
+
+
+     .view-4 {
+    max-width: 1000px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .view-4 video {
+    max-width: 100%;
+
+      </style>
+
+
+  </head>
+
+  <body>
+
+
+    <div class="element">
+      <div class="div">
+        <div class="overlap">
+          <div class="rectangle"></div>
+          <div class="rectangle-2"></div>
+          <div class="rectangle-3"></div>
+          <img class="image" src="img/image.svg" />
+          <div class="view"></div>
+          <div class="view-2">
+<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+    <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDhtaTN3YXJ1a3Z4bWE3ajE5dWc5cmFidXV2bHF6YmFlMmhzZDhncCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3ornk9pjFPStA3j2zC/giphy.gif" 
+         alt="Giphy 이미지" 
+         style="width: 1000px;">
+    </div>
+          
+          </div>
+          <div class="rectangle-4"></div>
+
+          <div class="view-3"></div>
+          <div class="div-2"></div>
+          <div class="div-3"></div>
+          <div class="div-4"></div>
+          <div class="stress">stress!<br />직접 구매하세요</div>
+          <div class="element-stress">할일 개많은데<br />릴스 2시간 봐버림<br />stress</div>
+          <p class="text-wrapper">음악시간 가창시간 수행평가 발표순서 1번<br />stress</p>
+          <p class="p">왕복 4시간 통학생인데 에어팟 두고 나옴 <br />stress</p>
+          <p class="text-wrapper-4" style="text-align: left; padding-bottom: 200px;">
+    지나친 스트레스 구매는<br />학교를 엉망으로 만들 수 있으니 주의하세요!
+</p>
+
+
+        
+
+          <p class="div-5"><span class="span">123,435,540</span> <span class="text-wrapper-5"> 원</span></p>
+          <p class="div-6"><span class="span">543,342,456</span> <span class="text-wrapper-5"> 원</span></p>
+          <p class="div-7"><span class="span">34,678,789</span> <span class="text-wrapper-5"> 원</span></p>
+          <p class="div-8">
+            <span class="text-wrapper-6"
+              >유튜브 쇼츠를 3시간이나 보고 시간을 낭비했다는 자책감과 후회로 인해 발생하는 스트레스는 생산성 감소와
+              계획 실패에 대한 불안을 유발합니다. 또한, 유튜브  중독과 자제력 부족으로 인해 할 일에 대한 부담이
+              증가하며, 이는 미래에 대한  불안과 스트레스를 유발할 수 있습니다.<br
+            /></span>
+            <span class="text-wrapper-7"><br /></span>
+          </p>
+          <p class="text-wrapper-8">
+            음악시간이나 가창시간에서 자신의 음악적 역량을 발휘해야 하는 것은 많은 학생들에게 <br />스트레스를
+            유발합니다. 특히, 다른 학생들 앞에서 가창을 해야할 때의 삑사리로 인해 <br />놀림받게 될 것만 같은 불안과
+            스트레스가 발생할 수 있습니다
+          </p>
+          <p class="div-9">
+            <span class="text-wrapper-6"
+              >긴 시간동안 음악없이 등교해야할 뿐만아니라, 시간을 술술 보내기 위해 시청하게 되는  릴스나 쇼츠도 소리없이
+              영상만 시청해야되는 일이 발생합니다.<br
+            /></span>
+            <span class="text-wrapper-7"><br /></span>
+          </p>
+          <p class="buy-stress">
+            저희 ‘buy stress’는 다양한 상황과 강도의 스트레스를 판매합니다. <br />아이들에게 필요한 스트레스를 구매하여
+            ‘지나치게 심심한 상태&#39;에 새로운 자극을 선물하세요!<br />스트레스는 아이들에게 좋은 긴장감을 일깨워 줄
+            것입니다.
+          </p>
+          <div class="group">
+            <div class="overlap-group">
+              <img class="line" src="img/line-20.png" />
+              <img class="img" src="img/line-20.png" />
+              <img class="line-2" src="img/line-20.png" />
+              <div class="text-wrapper-15">고객센터</div>
+              <div class="text-wrapper-16">제휴제안</div>
+              <div class="text-wrapper-17">이용약관</div>
+              <div class="text-wrapper-18">인재채용</div>
+              <div class="text-wrapper-19">회사소개</div>
+              <p class="div-10"><span class="text-wrapper-20">©</span> <span class="text-wrapper-7">김슬아</span></p>
+            </div>
+          </div>
+          <div class="view-4" style="display: flex; justify-content: center;">
+  <video autoplay muted loop style>
+    <source src="motion1.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+
+
+
+
+
+
+
+
+
+          <div class="overlap-wrapper">
+            <div class="div-wrapper"><div class="text-wrapper-21">#시간 관리</div></div>
+          </div>
+          <div class="overlap-group-wrapper">
+            <div class="overlap-2"><div class="text-wrapper-22">#시간 관리</div></div>
+          </div>
+          <div class="group-2">
+            <div class="overlap-2"><div class="text-wrapper-22">#위기 극복</div></div>
+          </div>
+          <div class="group-3">
+            <div class="overlap-3"><div class="text-wrapper-23">#과제 수행 능력 향상</div></div>
+          </div>
+          <div class="group-4">
+            <div class="overlap-4"><div class="text-wrapper-24">#무대장악 능력</div></div>
+          </div>
+          <div class="group-5">
+            <div class="div-wrapper"><div class="text-wrapper-21">#충격요법</div></div>
+          </div>
+          <div class="group-6">
+            <div class="overlap-5"><div class="text-wrapper-25">#위기 대처능력</div></div>
+          </div>
+          <div class="group-7">
+            <div class="overlap-6"><div class="text-wrapper-26">#자제력</div></div>
+          </div>
+          <div class="group-8">
+            <div class="overlap-6"><div class="text-wrapper-26">#자신감</div></div>
+          </div>
+          <div class="group-9">
+            <div class="overlap-7"><div class="text-wrapper-27">#지루함 극복</div></div>
+          </div>
+          <div class="group-10">
+            <div class="overlap-8"><div class="text-wrapper-28">#효율성</div></div>
+          </div>
+          <div class="group-11">
+            <div class="overlap-7"><div class="text-wrapper-27">#실수 재방지</div></div>
+          </div>
+
+
+          
+          <div class="text-wrapper-30">제품 상세 페이지</div>
+          <div class="group-wrapper">
+            <div class="group-12">
+              <img class="vector" src="img/vector-2.png" />
+              <div class="group-13">
+                <div class="overlap-group-2">
+                  <img class="ellipse" src="img/ellipse-10.png" /> <img class="union" src="img/union.png" />
+                </div>
+              </div>
+              <div class="text-wrapper-31">제품 소개</div>
+              <div class="text-wrapper-32">buy stress!</div>
+              <div class="text-wrapper-33">스트레스 판매 서비스</div>
+              <img class="ellipse-2" src="img/ellipse-9.svg" />
+              <div class="text-wrapper-34">고객센터</div>
+            </div>
+          </div>
+          <div class="text-wrapper-35">buy</div>
+          <img class="mask-group" src="img/mask-group.png" />
+          <img class="mask-group-2" src="img/mask-group-1.png" />
+          <img class="mask-group-3" src="img/mask-group-2.png" />
+          <img class="vector-2" src="img/vector-23.png" />
+          <img class="vector-3" src="img/vector-24.png" />
+          <img class="vector-4" src="img/vector-25.png" />
+          <img class="vector-5" src="img/vector-26.png" />
+          <img class="vector-6" src="img/vector-27.png" />
+          <img class="vector-7" src="img/vector-28.png" />
+          <img class="vector-8" src="img/vector-29.png" />
+          <img class="vector-9" src="img/vector-30.png" />
+          <img class="vector-10" src="img/vector-31.png" />
+          <img class="vector-11" src="img/vector-32.png" />
+          <img class="vector-12" src="img/vector-33.png" />
+          <img class="vector-13" src="img/vector-34.png" />
+          <img class="vector-14" src="img/vector-35.png" />
+          <img class="vector-15" src="img/vector-36.png" />
+          <img class="vector-16" src="img/vector-37.png" />
+          <img class="vector-17" src="img/vector-38.png" />
+          <img class="vector-18" src="img/vector-39.png" />
+          <img class="vector-19" src="img/vector-40.png" />
+          <img class="vector-20" src="img/vector-41.png" />
+          <img class="vector-21" src="img/vector-42.png" />
+          <img class="vector-22" src="img/vector-43.png" />
+          <img class="vector-23" src="img/vector-44.png" />
+          <img class="vector-24" src="img/vector-45.png" />
+          <img class="vector-25" src="img/vector-46.png" />
+          <div class="group-14">
+            <div class="overlap-9">
+              <div class="overlap-10">
+                <div class="text-wrapper-36">학생이라면?<br />학교생활 스트레스!</div>
+                <img class="element-rdpph" src="img/262016-2-rdpph0-1.png" />
+                <img class="img-2" src="img/e55b4daf975ff45b6123207b94cb339b-1.png" />
+              </div>
+              <img class="group-15" src="img/group-38.png" />
+            </div>
+            <p class="text-wrapper-37">할 일 개많은데 <br />릴스 2시간 봐버림<br />스트레스</p>
+            <div class="text-wrapper-38">음악시간 가창 수행평가<br />발표순서 1번<br />스트레스</div>
+            <div class="text-wrapper-39">개학시즌 특별할인</div>
+            <p class="text-wrapper-40">왕복 4시간 통학생<br />에어팟 두고 나옴<br />스트레스</p>
+          </div>
+          <p class="buy-stress-2">
+            <span class="text-wrapper-41">스트레스 판매 서비스</span>
+            <span class="text-wrapper-42"> ‘buy stress!’</span>
+            <span class="text-wrapper-41">는 <br />‘스트레스 지수가 높은 현대사회를 살아가는 모든 이들이, 과하지 않은 적절한 스트레스를 통해
+              <br />삶에 원동력을 부여하고, 더 발전하고 더 성장할 수 있기를 응원합니다.’</span>
+          </p>
+          <p class="div-11">
+            <span class="text-wrapper-43">그래도 성장은 </span>
+            <br><span class="text-wrapper-44">스트레스</span>
+            <span class="text-wrapper-43">로부터!</span>
+          </p>
+          <p class="text-wrapper-45">
+            그러자 아이들은 작은 스트레스, 작은 긴장도 느끼지 못하며 지나치게 편안한 삶을 살아가게 되었습니다.
+            <br />이러한 지나친 편안함 때문에 아이들 사이에 ‘지나치게 심심함’ 이라는 병적 나태 현상이 나타났고,
+            <br />따라서 학부모들은 아이들을 위해 긴장을 찾아나섰고 그 결과 스트레스는 많은 수요을 가지게 되었습니다.
+          </p>
+          <div class="text-wrapper-46">‘지나치게 심심함’ 현상</div>
+          <p class="gpt">
+            챗gpt 와 번역기능의 발달로 아이들 더 이상 <br />외국어를 공부할 필요가 없어졌으며, <br />머리로 계산하는
+            수학 또한 필요하지 않습니다.
+          </p>
+          <p class="text-wrapper-47">
+            또한 이동기술의 발전으로 더이상 불편한 대중교통을 타고 이동할 필요가 없어졌습니다
+          </p>
+          <p class="text-wrapper-48">
+            아이들에게 교육이 무의미해지자 학교 또한 사라졌으며, 특히 음악,체육,미술과 같이 금전적 가치를 생산하는데
+            불필요하다고 생각되는 과목들은 거의 찾아볼 수 없게 되었습니다.
+          </p>
+          <div class="text-wrapper-49">공부도, 숙제도<br />필요없는 세상</div>
+          <div class="text-wrapper-50">지옥철이<br />뭐에요?</div>
+          <div class="text-wrapper-51">음악시간?<br />돈이 안되면<br />필요없다!</div>
+          <img class="group-16" src="img/group-39.png" />
+          <img class="img-3" src="img/e55b4daf975ff45b6123207b94cb339b-2.png" />
+          <img class="element-rdpph-2" src="img/262016-2-rdpph0-2.png" />
+          <img class="vector-26" src="img/vector-57.png" />
+          <img class="vector-27" src="img/vector-82.png" />
+          <img class="vector-28" src="img/vector-48.png" />
+          <img class="vector-29" src="img/vector.svg" />
+          <img class="vector-30" src="img/vector-72.svg" />
+          <img class="vector-31" src="img/vector-75.svg" />
+          <img class="vector-32" src="img/vector-76.svg" />
+          <img class="vector-33" src="img/vector-77.svg" />
+          <img class="vector-34" src="img/vector-78.svg" />
+          <img class="vector-35" src="img/vector-79.svg" />
+          <img class="vector-36" src="img/vector-80.svg" />
+          <img class="vector-37" src="img/vector-81.svg" />
+          <div class="text-wrapper-52">stress!</div>
+          <img class="vector-38" src="img/vector-1.png" />
+          <img class="vector-39" src="img/vector-3.png" />
+
+          <img class="mask-group-4" src="img/mask-group-3.png" />
+          <img class="group-17" src="img/group-49.png" />
+          <img class="group-18" src="img/group-47.png" />
+          <img class="group-19" src="img/group-48.png" />
+          <div class="view-5"></div>
+          <p class="text-wrapper-53">
+            만병의 원인으로만 생각되었던 스트레스. <br />그러나 세상의 모든 혁신과 발명은 스트레스로부터
+            시작되었습니다.<br />스트레스는 사실 우리의 삶의 영위와 발전의 필수요소가 아닐까요?
+          </p>
+          <div class="rectangle-5"></div>
+          <img class="group-20" src="img/group-7.png" />
+          <div class="rectangle-6"></div>
+          <div class="group-21">
+            <div class="overlap-11">
+              <img class="mask-group-5" src="img/mask-group-4.png" />
+              <div class="rectangle-7"></div>
+              <p class="text-wrapper-54">1만 번의 실패 스트레스. 결국 세상을 밝히다</p>
+              <div class="powerful-stress">powerful<br />stress</div>
+              <img class="mask-group-5" src="img/mask-group-5.png" />
+              <div class="rectangle-8"></div>
+              <div class="text-wrapper-55">바로 구매하기</div>
+            </div>
+          </div>
+          <div class="text-wrapper-56">세상을 바꾼 스트레스.</div>
+          <img class="group-22" src="img/group-46.png" />
+          <p class="element-ai-ai">
+            2024년으로부터 200년이 지난 지금 2224년. 기하급수적인 속도로 발전하던 ai기술이 <br />지금은 전세계인들의
+            삶에 지배적인 영향을 끼치고 있습니다.<br />고도로 발전된 ai기술은 특히 성장기인 아이들의 삶에 지대한 영향을
+            끼치고 있는데요......
+          </p>
+          <div class="text-wrapper-57">어린이들의 삶을 지배하는 AI</div>
+        </div>
+        <img class="rectangle-9" src="img/rectangle-80.png" />
+      </div>
+    </div>
+
+
+    
+    
+
+
+  </body>
+</html>
